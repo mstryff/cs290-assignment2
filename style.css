@@ -1,0 +1,58 @@
+th:nth-child(1)
+{
+    font-weight: normal;
+    font-style: italic;
+}
+
+td:nth-child(2)
+{
+    color: red;
+}
+
+td:nth-child(4)
+{
+    color: blue;
+}
+
+tr:nth-child(even)
+{
+    background: lightgreen;
+}
+
+tr:nth-child(odd)
+{
+    background: lightblue;
+}
+
+tr:nth-child(1)
+{
+    background: white;
+}
+
+
+dt:hover + dd
+{
+    background: purple;
+}
+
+.outer-content
+{
+    background-color: pink;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.inner-content
+{
+    background-color: lightblue;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img
+{
+    width: 100px;
+    height: 125px;
+    float: left;
+}
